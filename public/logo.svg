@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100">
+  <!-- Background -->
+  <rect width="200" height="100" fill="white"/>
+
+  <!-- Shopping cart icon -->
+  <g transform="translate(20, 30) scale(0.6)">
+    <circle cx="30" cy="50" r="10" fill="#4CAF50" />
+    <circle cx="70" cy="50" r="10" fill="#4CAF50" />
+    <rect x="20" y="20" width="60" height="30" rx="5" ry="5" fill="none" stroke="#4CAF50" stroke-width="5"/>
+    <line x1="20" y1="20" x2="15" y2="5" stroke="#4CAF50" stroke-width="5" />
+    <line x1="80" y1="20" x2="85" y2="5" stroke="#4CAF50" stroke-width="5" />
+  </g>
+
+  <!-- Text "NxtShop" -->
+  <text x="90" y="60" font-family="Arial, sans-serif" font-size="24" fill="#0D47A1" font-weight="bold">
+    NxtShop
+  </text>
+</svg>
