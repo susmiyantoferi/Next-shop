@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { APP_NAME } from "@/lib/constant";
 import { ChevronUp } from "lucide-react";
 import Link from "next/link";
-import React from "react";
 
 const Footer = () => {
   return (

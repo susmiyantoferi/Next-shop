@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/select";
 import { APP_NAME } from "@/lib/constant";
 import { SearchIcon } from "lucide-react";
-import React from "react";
 
 const categories = ["Men", "Women", "Kids", "Accessories"];
 
@@ -30,7 +29,7 @@ export default async function Search(){
 
       <input
         className="flex-1 rounded-none dark:border-gray-200 bg-gray-100 text-black text-base h-full"
-        placeholder={`Search ${APP_NAME}`}
+        placeholder={`  Search ${APP_NAME}`}
         name="q"
         type="search"
       />

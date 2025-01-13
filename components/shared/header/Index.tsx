@@ -1,7 +1,6 @@
 import { APP_NAME } from "@/lib/constant";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import Search from "./Search";
 import { Button } from "@/components/ui/button";
 import { MenuIcon } from "lucide-react";
