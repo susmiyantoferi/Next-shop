@@ -10,11 +10,17 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-exportdefault = {
-  rule : {
+// exportdefault = {
+//   rule : {
+//     "@typescript-eslint/no-explicit-any": "error"
+//   }
+// }
+
+module.exports = {
+  "rules": {
     "@typescript-eslint/no-explicit-any": "error"
   }
-}
+}; 
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
